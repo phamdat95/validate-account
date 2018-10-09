@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var accountOne = 'phamdat';
+    var accountTwo = 'pham';
+    function isAccount(account) {
+        check = /^[_a-z0-9]{6,}/;
+        if (check.test(account))
+            return true;
+        return false;
+    }
+    console.log(isAccount(accountOne));
+    console.log(isAccount(accountTwo));
+</script>
+</body>
+</html>

@@ -9,7 +9,7 @@
     var accountOne = 'phamdat';
     var accountTwo = 'pham';
     function isAccount(account) {
-        check = /^[_a-z0-9]{6,}/;
+        check = /^[_a-z0-9]{6,}$/;
         if (check.test(account))
             return true;
         return false;
